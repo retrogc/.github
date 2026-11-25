@@ -35,6 +35,7 @@ No menus to browse, no emulator to configure. **Insert coin… er, card.** 🪙
 | | Project | What it does |
 |:-:|---|---|
 | 🕹️ | [**retrogc-launcher**](https://github.com/retrogc/retrogc-launcher) | The heart of it: the Windows / Linux launcher that watches for cards and starts the game in RetroArch, the MiSTer FPGA and Recalbox background scripts, and the `.rgc` card format. |
+| 📺 | [**retrogc-launcher-mister**](https://github.com/retrogc/retrogc-launcher-mister) | The launcher screen, native on MiSTer FPGA: cover art and details on your TV (HDMI or a good old 15 kHz CRT), press **A** to play. The stock MiSTer menu stays one button away. |
 | 💳 | [**retrogc-installer**](https://github.com/retrogc/retrogc-installer) | RetroArch and all its emulator cores, packaged for the launcher, plus the ready-to-flash **installer card** that sets up a computer offline in one go. |
 | 🛠️ | [**retrogc-creator**](https://github.com/retrogc/retrogc-creator) | The card workshop: a desktop app to create and edit cards, add their files, open card images, build the `.img.xz` and write it to a USB stick. |
 | 🎨 | [**retrogc-covers**](https://git.mydedibox.fr/cpasjuste/retrogc-covers) | Printable box art for the USB stick cases, with GIMP templates per platform. Because a game deserves a shelf. |
@@ -50,6 +51,7 @@ No menus to browse, no emulator to configure. **Insert coin… er, card.** 🪙
 On a MiSTer or a Recalbox? One script and you're done:
 [MiSTer](https://github.com/retrogc/retrogc-launcher#-mister-fpga) ·
 [Recalbox](https://github.com/retrogc/retrogc-launcher#-recalbox).
+On MiSTer, the launcher screen even runs on a CRT. Your Trinitron has been waiting for this. 📺
 
 ## 🏆 High scores
 
